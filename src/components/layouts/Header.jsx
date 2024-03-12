@@ -3,11 +3,11 @@ import { Navbar } from './navbar'
 
 export const Header = () => {
   return (
-    
-    <header className='header'>
-        <Navbar />
-    </header>
-
+    <>
+      <div className='header'>
+          <Navbar />
+      </div>
+    </>
     
   )
 }

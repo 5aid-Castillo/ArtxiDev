@@ -12,6 +12,7 @@ export const Navbar = () => {
     
   return (
     <>
+    <div className='header'>
         <nav className='nav-bar nav-container'> 
             <div className="nav__data">
                 <a href="/" className="nav__logo text-lg md:text-3xl">
@@ -49,6 +50,7 @@ export const Navbar = () => {
                 </ul>
             </div>
         </nav>
+        </div>
     </>
   )
 }
