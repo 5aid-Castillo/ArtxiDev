@@ -34,7 +34,7 @@ export const Home = () => {
             Empezar ahora
           </Link>
         </article>
-        <article data-aos="zoom-in" >
+        <article >
           <Animation  />
         </article>
       </section>
