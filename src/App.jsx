@@ -5,7 +5,7 @@ import { Home } from './pages/Home'
 import { Services } from './pages/Services'
 import { Footer } from './components/layouts/Footer'
 import { ContactUs } from './pages/ContactUs'
-import { Navbar } from './components/layouts/navbar'
+import {Navbar} from './components/layouts/Navbar'
 
 
 function App() {
