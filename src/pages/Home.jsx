@@ -27,7 +27,7 @@ export const Home = () => {
             Haz crecer tu negocio con <strong>Artxi Dev</strong>
           </p>
           <p className="text-gray-50 text-1xl md:text-slate-950" data-aos="zoom-in">
-            Podemos ayudarte a hacer realidad tus ideas en el mundo digital.
+            Podemos ayudarte a hacer realidad tus ideas en el mundo digital. jeje
             {/* Podemos ayudarte a crecer en este mundo digital */}
           </p>
           <Link to="/contactanos" className="btn-start md:mx-0" data-aos="zoom-in">
