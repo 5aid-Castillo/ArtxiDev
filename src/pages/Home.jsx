@@ -7,7 +7,7 @@ import rocket from "../assets/rocket.png";
 import phone from "../assets/phone_object.png";
 import books from "../assets/Books.png";
 import { Animation } from "../components/Animation";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Card } from "../components/Card";
 import Aos  from 'aos'
 import 'aos/dist/aos.css'
@@ -30,9 +30,9 @@ export const Home = () => {
             Podemos ayudarte a hacer realidad tus ideas en el mundo digital. 
             {/* Podemos ayudarte a crecer en este mundo digital */}
           </p>
-          <Link to="/contactanos" className="btn-start md:mx-0" data-aos="zoom-in">
+          <NavLink to="/contactanos" className="btn-start md:mx-0" data-aos="zoom-in">
             Empezar ahora
-          </Link>
+          </NavLink>
         </article>
         <article >
           <Animation  />
@@ -168,9 +168,9 @@ export const Home = () => {
         </article>
         <article className="flex justify-center py-10">
 
-        <Link to="/contactanos" className="btn-start w-1/2 md:w-1/4">
+        <NavLink to="/contactanos" className="btn-start w-1/2 md:w-1/4">
             Empezar ahora
-          </Link>
+          </NavLink>
         </article>
      
       </section>
@@ -181,9 +181,9 @@ export const Home = () => {
         </article>
         <article className="flex justify-center py-10">
 
-        <Link to="/servicios" className="btn-start w-1/2 md:w-1/4">
+        <NavLink to="/servicios" className="btn-start w-1/2 md:w-1/4">
             Conocer servicios
-          </Link>
+          </NavLink>
         </article>
       </section>
     </>

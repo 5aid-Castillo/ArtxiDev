@@ -4,7 +4,7 @@ import website from "../assets/web-site.png";
 import websitedin from "../assets/web-site-din.png";
 import appweb from "../assets/app-web.png";
 import software from "../assets/software.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Aos  from 'aos'
 import 'aos/dist/aos.css'
 import {useEffect} from 'react';
@@ -89,7 +89,7 @@ export const Services = () => {
       <section className="bg-slate-200 px-2 py-3 mb-10 mt-10 ">
         <p className="text-lg font-bold text-center mt-4">¿Tienes en mente un proyecto?</p>
         <div className="flex justify-center">
-          <Link to="/contactanos" className="btn-start mt-8 w-1/2 md:w-1/4">Contactanos</Link>
+          <NavLink to="/contactanos" className="btn-start mt-8 w-1/2 md:w-1/4">Contactanos</NavLink>
 
         </div>
           

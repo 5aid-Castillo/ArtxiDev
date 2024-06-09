@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 import '../../styles/Navbar.css'
 import { Fade as Hamburger } from 'hamburger-react'
 import { useState } from 'react';
@@ -29,10 +29,10 @@ export const Navbar = () => {
             <div className={isOpen ?'nav__menu show-menu' :'nav__menu ' } id="nav-menu">
                 <ul className="nav__list">
                     <li onClick={close}>
-                        <Link className='nav__link' to="/">Inicio</Link> 
+                        <NavLink className='nav__link' to="/">Inicio</NavLink> 
                     </li>
                     <li onClick={close}>
-                        <Link className='nav__link'  to="/servicios">Servicios</Link> 
+                        <NavLink className='nav__link'  to="/servicios">Servicios</NavLink> 
                     </li>
                    {/*  <li>
                         <Link className='nav__link' to="/precios">Precios</Link> 
@@ -41,7 +41,7 @@ export const Navbar = () => {
                         <Link className='nav__link' to="/nosotros">Nosotros</Link> 
                     </li> */}
                     <li onClick={close}>
-                        <Link className='nav__link' to="/contactanos">Contactanos</Link> 
+                        <NavLink className='nav__link' to="/contactanos">Contactanos</NavLink> 
                     </li>
                     <li className='mt-5 hidden md:block'>
                         <a href="https://wa.link/up42t7" target="__blank" className='whatsapp-button '>Chat en WhatsApp <box-icon name='whatsapp'  animation='tada-hover' type='logo' color="#ffff"></box-icon></a> 
